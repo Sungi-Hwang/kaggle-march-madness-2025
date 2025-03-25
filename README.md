@@ -73,7 +73,7 @@ and stabilized the probability outputs in high-margin scenarios.
 
 ## 🚀 Files
 
-- `2025NCAAmerged_model.ipynb`: Final notebook with merged training, modeling, and submission steps.
+- `2025NCAAmerged_model.ipynb`: Final notebook with merged training, modeling, and submission steps. (\notebooks)
 - `src/`: (optional) Modular training pipeline and utilities
 - `data/`: (optional) Prepared datasets
 
