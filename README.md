@@ -45,6 +45,19 @@ This effectively removes any reversed behavior and ensures:
 The clipping correction flattens those regions, preserving directional consistency.
 
 ![image](https://github.com/user-attachments/assets/05a47743-5d56-4793-a333-56ddcf2bdf79)
+### 📉 Impact of Probability Correction
+
+After applying the clipping-based monotonicity fix on the spline-fitted probabilities,  
+the Brier score on the 2023 test set improved noticeably:
+
+- **Before Correction**: 0.17957  
+- **After Correction**: 0.16836 ✅
+
+This corresponds to a **~6% improvement** in the final evaluation score,  
+demonstrating the value of robust post-processing even after model inference.
+
+The correction helped eliminate logical reversals in close matchups  
+and stabilized the probability outputs in high-margin scenarios.
 
 ## 📊 Notable Techniques
 
