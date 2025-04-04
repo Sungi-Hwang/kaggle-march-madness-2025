@@ -1,6 +1,7 @@
 # 🏀 Kaggle March Madness 2025
 
-Predicting NCAA Tournament Outcomes Using a Conservative, Probabilistic Favorite-First Strategy
+### Predicting NCAA Tournament Outcomes Using a Conservative, Probabilistic Favorite-First Strategy
+
 This repository contains the full pipeline, experimentation history, and submissions for the Kaggle March Machine Learning Mania 2025 competition.
 
 ---
