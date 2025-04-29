@@ -80,7 +80,9 @@ and stabilized the probability outputs in high-margin scenarios.
 
 ## 🏁 Results
 
-- Final leaderboard results: _Pending_ (to be updated after full evaluation)
+- Final leaderboard results: 393/1727
+- Brier score 0.123
+- 
 
 ---
 
